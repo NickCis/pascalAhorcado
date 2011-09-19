@@ -6,14 +6,18 @@ Un juego de Ahorcado hecho en pascal.
 Instalacion
 ----------
 Ubuntu:
+
 	# Instalar Pascal
 	sudo apt-get install fpc
 
 	# Descargar
-	wget http://
+	wget https://github.com/NickCis/pascalAhorcado/tarball/master
 
 	# Descomprimir
-	tar -xf 
+	tar -xf master
+
+	# Mover a carpeta
+	cd NickCis-pascalAhorcado-«hash de commit»
 
 	# Compilar
 	fpc ahorcado.pas
